@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<!--
+  Flaticon icon font: Flaticon
+  Creation date: 13/12/2017 17:08
+-->
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GP Icons</title>
+    <link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/gp-icon.css">
+    <meta charset="UTF-8">
+    <style>
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    body {
+        font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        color: #222;
+    }
+    a {
+        color: #333;
+        border-bottom: 1px solid #a9fd00;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="gpi-"]:before, [class*=" gpi-"]:before, [class^="gpi-"]:after, [class*=" gpi-"]:after {
+        font-family: GpIcon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .wrapper {
+        max-width: 600px;
+        margin: auto;
+        padding: 0 1em;
+    }
+    .title {
+        font-size: 1.25em;
+        text-align: center;
+        margin-bottom: 1em;
+        text-transform: uppercase;
+    }
+    header {
+        text-align: center;
+        background-color: #222;
+        color: #fff;
+        padding: 1em;
+    }
+    header .logo {
+        width: 210px;
+        height: 38px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 1em;
+        border: none;
+    }
+    header strong {
+        font-size: 1.95em;
+        font-weight: bold;
+        vertical-align: middle;
+        margin-top: 5px;
+        display: inline-block;
+    }
+    .demo {
+        margin: 2em auto;
+        line-height: 1.25em;
+    }
+    .demo ul li {
+        margin-bottom: 1em;
+    }
+    .demo ul li .num {
+        color: #222;
+        border-radius: 20px;
+        display: inline-block;
+        width: 26px;
+        padding: 3px;
+        height: 26px;
+        text-align: center;
+        margin-right: 0.5em;
+        border: 1px solid #222;
+    }
+    .demo ul li code {
+        background-color: #222;
+        border-radius: 4px;
+        padding: 0.25em 0.5em;
+        display: inline-block;
+        color: #fff;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+        font-weight: lighter;
+        margin-top: 1em;
+        font-size: 0.8em;
+        word-break: break-all;
+    }
+    .demo ul li code.big {
+        padding: 1em;
+        font-size: 0.9em;
+    }
+    .demo ul li code .red {
+        color: #EF3159;
+    }
+    .demo ul li code .green {
+        color: #ACFF65;
+    }
+    .demo ul li code .yellow {
+        color: #FFFF99;
+    }
+    .demo ul li code .blue {
+        color: #99D3FF;
+    }
+    .demo ul li code .purple {
+        color: #A295FF;
+    }
+    .demo ul li code .dots {
+        margin-top: 0.5em;
+        display: block;
+    }
+    #glyphs {
+        border-bottom: 1px solid #ccc;
+        padding: 2em 0;
+        text-align: center;
+    }
+    .glyph {
+        display: inline-block;
+        width: 9em;
+        margin: 1em;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 18px;
+        color: #222;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 0.65em;
+        background-color: #222;
+        color: #fff;
+        border-radius: 4px 4px 0 0;
+        padding: 0.5em;
+        color: #FFFF99;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    }
+    .author-name {
+        font-size: 0.6em;
+        background-color: #fcfcfd;
+        border: 1px solid #DEDEE4;
+        border-top: 0;
+        border-radius: 0 0 4px 4px;
+        padding: 0.5em;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#a9fd00;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .attribution .title {
+        margin-top: 2em;
+    }
+    .attribution textarea {
+        background-color: #fcfcfd;
+        padding: 1em;
+        border: none;
+        box-shadow: none;
+        border: 1px solid #DEDEE4;
+        border-radius: 4px;
+        resize: none;
+        width: 100%;
+        height: 150px;
+        font-size: 0.8em;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+        -webkit-appearance: none;
+    }
+    .iconsuse {
+        margin: 2em auto;
+        text-align: center;
+        max-width: 1200px;
+    }
+    .iconsuse:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .iconsuse .image {
+        float: left;
+        width: 25%;
+        padding: 0 1em;
+    }
+    .iconsuse .image p {
+        margin-bottom: 1em;
+    }
+    .iconsuse .image span {
+        display: block;
+        font-size: 0.65em;
+        background-color: #222;
+        color: #fff;
+        border-radius: 4px;
+        padding: 0.5em;
+        color: #FFFF99;
+        margin-top: 1em;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    }
+    #footer {
+        text-align: center;
+        background-color: #4C5B5C;
+        color: #7c9192;
+        padding: 1em;
+    }
+    #footer a {
+        border: none;
+        color: #a9fd00;
+        font-weight: normal;
+    }
+    @media (max-width: 960px) {
+        .iconsuse .image {
+            width: 50%;
+        }
+    }
+    @media (max-width: 560px) {
+        .iconsuse .image {
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+
+<body class="characters-off">
+
+    <header>
+       
+        <strong>Font Demo</strong>
+    </header>
+
+
+    <section class="demo wrapper">
+
+        <p class="title">Instructions</p>
+
+        <ul>
+            <li>
+                <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+            </li>
+            <li>
+                <span class="num">2</span>Add the CSS link to your website source code on header.
+                <code class="big">
+                    &lt;<span class="red">head</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;<span class="red">link</span> <span class="green">rel</span>=<span class="yellow">"stylesheet"</span> <span class="green">type</span>=<span class="yellow">"text/css"</span> <span class="green">href</span>=<span class="yellow">"your_website_domain/css_root/flaticon.css"</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;/<span class="red">head</span>&gt;
+                </code>
+            </li>
+
+            <li>
+                <p>
+                    <span class="num">3</span>Use the icon class on <code>"<span class="blue">display</span>:<span class="purple"> inline</span>"</code> elements:
+                    <br />
+                    Use example: <code>&lt;<span class="red">i</span> <span class="green">class</span>=<span class="yellow">&quot;gpi-airplane49&quot;</span>&gt;&lt;/<span class="red">i</span>&gt;</code> or <code>&lt;<span class="red">span</span> <span class="green">class</span>=<span class="yellow">&quot;gpi-airplane49&quot;</span>&gt;&lt;/<span class="red">span</span>&gt;</code>
+            </li>
+        </ul>
+
+    </section>
+
+
+
+
+   <section id="glyphs">
+
+                 <div class="glyph"><div class="glyph-icon gpi-arrows-10"></div>
+            <div class="class-name">.gpi-arrows-10</div>
+            <div class="author-name">Author: <a data-file="114-arrows-10" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-arrows-13"></div>
+            <div class="class-name">.gpi-arrows-13</div>
+            <div class="author-name">Author: <a data-file="109-arrows-13" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-up-arrow-1"></div>
+            <div class="class-name">.gpi-up-arrow-1</div>
+            <div class="author-name">Author: <a data-file="110-up-arrow-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-arrows-12"></div>
+            <div class="class-name">.gpi-arrows-12</div>
+            <div class="author-name">Author: <a data-file="111-arrows-12" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-arrows-11"></div>
+            <div class="class-name">.gpi-arrows-11</div>
+            <div class="author-name">Author: <a data-file="112-arrows-11" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-right-arrow"></div>
+            <div class="class-name">.gpi-right-arrow</div>
+            <div class="author-name">Author: <a data-file="113-right-arrow" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-right-arrow-double"></div>
+            <div class="class-name">.gpi-right-arrow-double </div>
+            <div class="author-name">Author: <a data-file="018-arrows-18" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div>
+
+         <div class="glyph"><div class="glyph-icon gpi-left-arrow-double"></div>
+            <div class="class-name">.gpi-left-arrow-double </div>
+            <div class="author-name">Author: <a data-file="038-left-arrow" href="https://www.flaticon.com/authors/cursor-creative">Cursor Creative</a> </div> 
+        </div> 
+
+        
+        <div class="glyph"><div class="glyph-icon gpi-arrows-9"></div>
+            <div class="class-name">.gpi-arrows-9</div>
+            <div class="author-name">Author: <a data-file="125-arrows-9" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-arrows-8"></div>
+            <div class="class-name">.gpi-arrows-8</div>
+            <div class="author-name">Author: <a data-file="126-arrows-8" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-arrows-7"></div>
+            <div class="class-name">.gpi-arrows-7</div>
+            <div class="author-name">Author: <a data-file="127-arrows-7" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-arrows-6"></div>
+            <div class="class-name">.gpi-arrows-6</div>
+            <div class="author-name">Author: <a data-file="128-arrows-6" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-arrows-15"></div>
+            <div class="class-name">.gpi-arrows-15</div>
+            <div class="author-name">Author: <a data-file="052-arrows-15" href="https://www.flaticon.com/authors/gregor-cresnar">Gregor Cresnar</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-arrows-14"></div>
+            <div class="class-name">.gpi-arrows-14</div>
+            <div class="author-name">Author: <a data-file="053-arrows-14" href="https://www.flaticon.com/authors/gregor-cresnar">Gregor Cresnar</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-checked"></div>
+            <div class="class-name">.gpi-checked</div>
+            <div class="author-name">Author: <a data-file="142-checked" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-arrows-3"></div>
+            <div class="class-name">.gpi-arrows-3</div>
+            <div class="author-name">Author: <a data-file="159-arrows-3" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>
+
+         <div class="glyph"><div class="glyph-icon gpi-arrows-16"></div>
+            <div class="class-name">.gpi-arrows-16</div>
+            <div class="author-name">Author: <a data-file="046-arrows-16" href="https://www.flaticon.com/authors/gregor-cresnar">Gregor Cresnar</a> </div> 
+        </div>  
+
+        <div class="glyph"><div class="glyph-icon gpi-arrows-5"></div>
+            <div class="class-name">.gpi-arrows-5</div>
+            <div class="author-name">Author: <a data-file="139-arrows-5" href="https://www.flaticon.com/authors/dario-ferrando">Dario Ferrando</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-arrows-2"></div>
+            <div class="class-name">.gpi-arrows-2</div>
+            <div class="author-name">Author: <a data-file="171-arrows-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-settings"></div>
+            <div class="class-name">.gpi-settings</div>
+            <div class="author-name">Author: <a data-file="084-settings" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-settings-1"></div>
+            <div class="class-name">.gpi-settings-1</div>
+            <div class="author-name">Author: <a data-file="008-settings-1" href="https://www.flaticon.com/authors/dinosoftlabs">DinosoftLabs</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-cogwheel"></div>
+            <div class="class-name">.gpi-cogwheel</div>
+            <div class="author-name">Author: <a data-file="002-cogwheel" href="https://www.flaticon.com/authors/becris">Becris</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-communication-1"></div>
+            <div class="class-name">.gpi-communication-1</div>
+            <div class="author-name">Author: <a data-file="208-communication-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-communication"></div>
+            <div class="class-name">.gpi-communication</div>
+            <div class="author-name">Author: <a data-file="209-communication" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>    
+        
+        <div class="glyph"><div class="glyph-icon gpi-key"></div>
+            <div class="class-name">.gpi-key</div>
+            <div class="author-name">Author: <a data-file="010-key" href="https://www.flaticon.com/authors/prettycons">prettycons</a> </div> 
+        </div>        
+ 
+        <div class="glyph"><div class="glyph-icon gpi-technology-10"></div>
+            <div class="class-name">.gpi-technology-10</div>
+            <div class="author-name">Author: <a data-file="012-technology-10" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-technology-7"></div>
+            <div class="class-name">.gpi-technology-7</div>
+            <div class="author-name">Author: <a data-file="042-technology-7" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-video-camera"></div>
+            <div class="class-name">.gpi-video-camera</div>
+            <div class="author-name">Author: <a data-file="102-video-camera" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-technology-6"></div>
+            <div class="class-name">.gpi-technology-6</div>
+            <div class="author-name">Author: <a data-file="117-technology-6" href="https://www.flaticon.com/authors/dario-ferrando">Dario Ferrando</a> </div> 
+        </div> 
+
+         <div class="glyph"><div class="glyph-icon gpi-technology-4"></div>
+            <div class="class-name">.gpi-technology-4</div>
+            <div class="author-name">Author: <a data-file="149-technology-4" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-technology-3"></div>
+            <div class="class-name">.gpi-technology-3</div>
+            <div class="author-name">Author: <a data-file="153-technology-3" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+        
+        <div class="glyph"><div class="glyph-icon gpi-qr-code"></div>
+            <div class="class-name">.gpi-qr-code</div>
+            <div class="author-name">Author: <a data-file="013-qr-code" href="https://www.flaticon.com/authors/prettycons">prettycons</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-shop"></div>
+            <div class="class-name">.gpi-shop</div>
+            <div class="author-name">Author: <a data-file="007-shop" href="https://www.flaticon.com/authors/dinosoftlabs">DinosoftLabs</a> </div> 
+        </div>
+
+         <div class="glyph"><div class="glyph-icon gpi-briefcase-1"></div>
+            <div class="class-name">.gpi-briefcase-1</div>
+            <div class="author-name">Author: <a data-file="064-briefcase-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>  
+        
+        <div class="glyph"><div class="glyph-icon gpi-shopping-bag"></div>
+            <div class="class-name">.gpi-shopping-bag</div>
+            <div class="author-name">Author: <a data-file="014-business-1" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-shopping-bag-2"></div>
+            <div class="class-name">.gpi-shopping-bag-2</div>
+            <div class="author-name">Author: <a data-file="014-business-1" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div>
+
+         <div class="glyph"><div class="glyph-icon gpi-shopping-cart"></div>
+            <div class="class-name">.gpi-shopping-cart</div>
+            <div class="author-name">Author: <a data-file="017-shopping-cart" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div> 
+
+         <div class="glyph"><div class="glyph-icon gpi-shopping-cart-outline"></div>
+            <div class="class-name">.gpi-shopping-cart-outline</div>
+            <div class="author-name">Author: <a data-file="166-shopping-cart-outline" href="https://www.flaticon.com/authors/catalin-fertu">Catalin Fertu</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-rainy-day"></div>
+            <div class="class-name">.gpi-rainy-day</div>
+            <div class="author-name">Author: <a data-file="021-rainy-day" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-rain-1"></div>
+            <div class="class-name">.gpi-rain-1</div>
+            <div class="author-name">Author: <a data-file="022-rain-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+
+        <div class="glyph"><div class="glyph-icon gpi-boat"></div>
+            <div class="class-name">.gpi-boat</div>
+            <div class="author-name">Author: <a data-file="158-boat" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>  
+
+        <div class="glyph"><div class="glyph-icon gpi-tools"></div>
+            <div class="class-name">.gpi-tools</div>
+            <div class="author-name">Author: <a data-file="015-tools" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-drawing"></div>
+            <div class="class-name">.gpi-drawing</div>
+            <div class="author-name">Author: <a data-file="216-drawing" href="https://www.flaticon.com/authors/eucalyp">Eucalyp</a> </div> 
+        </div>         
+        
+        <div class="glyph"><div class="glyph-icon gpi-pencil"></div>
+            <div class="class-name">.gpi-pencil</div>
+            <div class="author-name">Author: <a data-file="024-pencil" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>       
+
+        <div class="glyph"><div class="glyph-icon gpi-drawing-2"></div>
+            <div class="class-name">.gpi-drawing-2</div>
+            <div class="author-name">Author: <a data-file="026-drawing-2" href="https://www.flaticon.com/authors/prosymbols">Prosymbols</a> </div> 
+        </div> 
+
+         <div class="glyph"><div class="glyph-icon gpi-drawing-1"></div>
+            <div class="class-name">.gpi-drawing-1</div>
+            <div class="author-name">Author: <a data-file="043-drawing-1" href="https://www.flaticon.com/authors/eucalyp">Eucalyp</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-school"></div>
+            <div class="class-name">.gpi-school</div>
+            <div class="author-name">Author: <a data-file="214-school" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-computer-4"></div>
+            <div class="class-name">.gpi-computer-4</div>
+            <div class="author-name">Author: <a data-file="027-computer-4" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-monitor-1"></div>
+            <div class="class-name">.gpi-monitor-1</div>
+            <div class="author-name">Author: <a data-file="036-monitor-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>       
+
+        <div class="glyph"><div class="glyph-icon gpi-devices"></div>
+            <div class="class-name">.gpi-devices</div>
+            <div class="author-name">Author: <a data-file="147-devices" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-coding"></div>
+            <div class="class-name">.gpi-coding</div>
+            <div class="author-name">Author: <a data-file="037-coding" href="https://www.flaticon.com/authors/becris">Becris</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-monitor"></div>
+            <div class="class-name">.gpi-monitor</div>
+            <div class="author-name">Author: <a data-file="123-monitor" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>  
+
+        <div class="glyph"><div class="glyph-icon gpi-computer-2"></div>
+            <div class="class-name">.gpi-computer-2</div>
+            <div class="author-name">Author: <a data-file="045-computer-2" href="https://www.flaticon.com/authors/gregor-cresnar">Gregor Cresnar</a> </div> 
+        </div> 
+
+
+        <div class="glyph"><div class="glyph-icon gpi-technology-9"></div>
+            <div class="class-name">.gpi-technology-9</div>
+            <div class="author-name">Author: <a data-file="025-technology-9" href="https://www.flaticon.com/authors/prosymbols">Prosymbols</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-support"></div>
+            <div class="class-name">.gpi-support</div>
+            <div class="author-name">Author: <a data-file="028-support" href="https://www.flaticon.com/authors/becris">Becris</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-technology-8"></div>
+            <div class="class-name">.gpi-technology-8</div>
+            <div class="author-name">Author: <a data-file="039-technology-8" href="https://www.flaticon.com/authors/creaticca-creative-agency">Creaticca Creative Agency</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-operator"></div>
+            <div class="class-name">.gpi-operator</div>
+            <div class="author-name">Author: <a data-file="040-operator" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>          
+
+        <div class="glyph"><div class="glyph-icon gpi-trophy"></div>
+            <div class="class-name">.gpi-trophy</div>
+            <div class="author-name">Author: <a data-file="030-trophy" href="https://www.flaticon.com/authors/dinosoftlabs">DinosoftLabs</a> </div> 
+        </div> 
+
+          <div class="glyph"><div class="glyph-icon gpi-cup"></div>
+            <div class="class-name">.gpi-cup</div>
+            <div class="author-name">Author: <a data-file="049-cup" href="https://www.flaticon.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a> </div> 
+        </div>  
+
+        <div class="glyph"><div class="glyph-icon gpi-coffee"></div>
+            <div class="class-name">.gpi-coffee</div>
+            <div class="author-name">Author: <a data-file="253-coffee" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-wine"></div>
+            <div class="class-name">.gpi-wine</div>
+            <div class="author-name">Author: <a data-file="031-wine" href="https://www.flaticon.com/authors/creaticca-creative-agency">Creaticca Creative Agency</a> </div> 
+        </div>
+
+    
+        <div class="glyph"><div class="glyph-icon gpi-coffee-cup"></div>
+            <div class="class-name">.gpi-coffee-cup</div>
+            <div class="author-name">Author: <a data-file="016-coffee-cup" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div> 
+
+        
+        <div class="glyph"><div class="glyph-icon gpi-arrow-2"></div>
+            <div class="class-name">.gpi-arrow-2</div>
+            <div class="author-name">Author: <a data-file="033-arrow-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-graphic-1"></div>
+            <div class="class-name">.gpi-graphic-1</div>
+            <div class="author-name">Author: <a data-file="107-graphic-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-graphic"></div>
+            <div class="class-name">.gpi-graphic</div>
+            <div class="author-name">Author: <a data-file="210-graphic" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-arrow-1"></div>
+            <div class="class-name">.gpi-arrow-1</div>
+            <div class="author-name">Author: <a data-file="054-arrow-1" href="https://www.flaticon.com/authors/elias-bikbulatov">Elias Bikbulatov</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-arrow"></div>
+            <div class="class-name">.gpi-arrow</div>
+            <div class="author-name">Author: <a data-file="143-arrow" href="https://www.flaticon.com/authors/vectors-market">Vectors Market</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-stats"></div>
+            <div class="class-name">.gpi-stats</div>
+            <div class="author-name">Author: <a data-file="144-stats" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-smartphone-5"></div>
+            <div class="class-name">.gpi-smartphone-5</div>
+            <div class="author-name">Author: <a data-file="034-smartphone-5" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-smartphone-4"></div>
+            <div class="class-name">.gpi-smartphone-4</div>
+            <div class="author-name">Author: <a data-file="067-smartphone-4" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-smartphone-3"></div>
+            <div class="class-name">.gpi-smartphone-3</div>
+            <div class="author-name">Author: <a data-file="068-smartphone-3" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-smartphone-2"></div>
+            <div class="class-name">.gpi-smartphone-2</div>
+            <div class="author-name">Author: <a data-file="069-smartphone-2" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-smartphone-1"></div>
+            <div class="class-name">.gpi-smartphone-1</div>
+            <div class="author-name">Author: <a data-file="070-smartphone-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-smartphone"></div>
+            <div class="class-name">.gpi-smartphone</div>
+            <div class="author-name">Author: <a data-file="071-smartphone" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-computer"></div>
+            <div class="class-name">.gpi-computer</div>
+            <div class="author-name">Author: <a data-file="211-computer" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-technology-11"></div>
+            <div class="class-name">.gpi-technology-11</div>
+            <div class="author-name">Author: <a data-file="006-technology-11" href="https://www.flaticon.com/authors/dinosoftlabs">DinosoftLabs</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-ipad"></div>
+            <div class="class-name">.gpi-ipad</div>
+            <div class="author-name">Author: <a data-file="173-ipad" href="https://www.flaticon.com/authors/darius-dan">Darius Dan</a> </div> 
+        </div> 
+        
+        <div class="glyph"><div class="glyph-icon gpi-technology-2"></div>
+            <div class="class-name">.gpi-technology-2</div>
+            <div class="author-name">Author: <a data-file="212-technology-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-credit-card"></div>
+            <div class="class-name">.gpi-credit-card</div>
+            <div class="author-name">Author: <a data-file="041-credit-card" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-wallet"></div>
+            <div class="class-name">.gpi-wallet</div>
+            <div class="author-name">Author: <a data-file="115-wallet" href="https://www.flaticon.com/authors/epiccoders">EpicCoders</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-money"></div>
+            <div class="class-name">.gpi-money</div>
+            <div class="author-name">Author: <a data-file="130-money" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>
+        
+        <div class="glyph"><div class="glyph-icon gpi-antenna"></div>
+            <div class="class-name">.gpi-antenna</div>
+            <div class="author-name">Author: <a data-file="035-antenna" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-flash"></div>
+            <div class="class-name">.gpi-flash</div>
+            <div class="author-name">Author: <a data-file="124-flash" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+
+        <div class="glyph"><div class="glyph-icon gpi-flash-1"></div>
+            <div class="class-name">.gpi-flash-1</div>
+            <div class="author-name">Author: <a data-file="044-flash-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>       
+ 
+        <div class="glyph"><div class="glyph-icon gpi-rocket-ship"></div>
+            <div class="class-name">.gpi-rocket-ship</div>
+            <div class="author-name">Author: <a data-file="050-rocket-ship" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-whatsapp"></div>
+            <div class="class-name">.gpi-whatsapp</div>
+            <div class="author-name">Author: <a data-file="051-whatsapp" href="https://www.flaticon.com/authors/swifticons">Swifticons</a> </div> 
+        </div>        
+ 
+        <div class="glyph"><div class="glyph-icon gpi-paper-plane"></div>
+            <div class="class-name">.gpi-paper-plane</div>
+            <div class="author-name">Author: <a data-file="055-paper-plane" href="https://www.flaticon.com/authors/elias-bikbulatov">Elias Bikbulatov</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-thinking"></div>
+            <div class="class-name">.gpi-thinking</div>
+            <div class="author-name">Author: <a data-file="056-thinking" href="https://www.flaticon.com/authors/elias-bikbulatov">Elias Bikbulatov</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-unlocked"></div>
+            <div class="class-name">.gpi-unlocked</div>
+            <div class="author-name">Author: <a data-file="057-unlocked" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-locked"></div>
+            <div class="class-name">.gpi-locked</div>
+            <div class="author-name">Author: <a data-file="058-locked" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>    
+
+        <div class="glyph"><div class="glyph-icon gpi-microphone"></div>
+            <div class="class-name">.gpi-microphone</div>
+            <div class="author-name">Author: <a data-file="062-microphone" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-home"></div>
+            <div class="class-name">.gpi-home</div>
+            <div class="author-name">Author: <a data-file="063-home" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-app"></div>
+            <div class="class-name">.gpi-app</div>
+            <div class="author-name">Author: <a data-file="065-app" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-archive"></div>
+            <div class="class-name">.gpi-archive</div>
+            <div class="author-name">Author: <a data-file="066-archive" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-edit"></div>
+            <div class="class-name">.gpi-edit</div>
+            <div class="author-name">Author: <a data-file="082-edit" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-pen-1"></div>
+            <div class="class-name">.gpi-pen-1</div>
+            <div class="author-name">Author: <a data-file="174-pen-1" href="https://www.flaticon.com/authors/darius-dan">Darius Dan</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-pen-2"></div>
+            <div class="class-name">.gpi-pen-2</div>
+            <div class="author-name">Author: <a data-file="048-pen-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>  
+
+        <div class="glyph"><div class="glyph-icon gpi-notebook-1"></div>
+            <div class="class-name">.gpi-notebook-1</div>
+            <div class="author-name">Author: <a data-file="072-notebook-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-notebook"></div>
+            <div class="class-name">.gpi-notebook</div>
+            <div class="author-name">Author: <a data-file="073-notebook" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-newspaper"></div>
+            <div class="class-name">.gpi-newspaper</div>
+            <div class="author-name">Author: <a data-file="074-newspaper" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+ 
+        <div class="glyph"><div class="glyph-icon gpi-folder-1"></div>
+            <div class="class-name">.gpi-folder-1</div>
+            <div class="author-name">Author: <a data-file="076-folder-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-folder"></div>
+            <div class="class-name">.gpi-folder</div>
+            <div class="author-name">Author: <a data-file="077-folder" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-calendar"></div>
+            <div class="class-name">.gpi-calendar</div>
+            <div class="author-name">Author: <a data-file="075-calendar" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>         
+        
+        <div class="glyph"><div class="glyph-icon gpi-time-3"></div>
+            <div class="class-name">.gpi-time-3</div>
+            <div class="author-name">Author: <a data-file="078-time-3" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+   
+        
+        <div class="glyph"><div class="glyph-icon gpi-clock"></div>
+            <div class="class-name">.gpi-clock</div>
+            <div class="author-name">Author: <a data-file="080-clock" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-alarm-clock"></div>
+            <div class="class-name">.gpi-alarm-clock</div>
+            <div class="author-name">Author: <a data-file="079-alarm-clock" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>  
+
+        <div class="glyph"><div class="glyph-icon gpi-alarm"></div>
+            <div class="class-name">.gpi-alarm</div>
+            <div class="author-name">Author: <a data-file="083-alarm" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>         
+        
+        <div class="glyph"><div class="glyph-icon gpi-search"></div>
+            <div class="class-name">.gpi-search</div>
+            <div class="author-name">Author: <a data-file="081-search" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+  
+        <div class="glyph"><div class="glyph-icon gpi-attachment"></div>
+            <div class="class-name">.gpi-attachment</div>
+            <div class="author-name">Author: <a data-file="085-attachment" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-interface-3"></div>
+            <div class="class-name">.gpi-interface-3</div>
+            <div class="author-name">Author: <a data-file="086-interface-3" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-controls"></div>
+            <div class="class-name">.gpi-controls</div>
+            <div class="author-name">Author: <a data-file="087-controls" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-layers"></div>
+            <div class="class-name">.gpi-layers</div>
+            <div class="author-name">Author: <a data-file="088-layers" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-id-card"></div>
+            <div class="class-name">.gpi-id-card</div>
+            <div class="author-name">Author: <a data-file="089-id-card" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-hourglass"></div>
+            <div class="class-name">.gpi-hourglass</div>
+            <div class="author-name">Author: <a data-file="090-hourglass" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+
+        <div class="glyph"><div class="glyph-icon gpi-cloud-computing-2"></div>
+            <div class="class-name">.gpi-cloud-computing-2</div>
+            <div class="author-name">Author: <a data-file="093-cloud-computing-2" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-server-1"></div>
+            <div class="class-name">.gpi-server-1</div>
+            <div class="author-name">Author: <a data-file="094-server-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-server"></div>
+            <div class="class-name">.gpi-server</div>
+            <div class="author-name">Author: <a data-file="095-server" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-wifi"></div>
+            <div class="class-name">.gpi-wifi</div>
+            <div class="author-name">Author: <a data-file="096-wifi" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-share"></div>
+            <div class="class-name">.gpi-share</div>
+            <div class="author-name">Author: <a data-file="097-share" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-substract"></div>
+            <div class="class-name">.gpi-substract</div>
+            <div class="author-name">Author: <a data-file="098-substract" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-add"></div>
+            <div class="class-name">.gpi-add</div>
+            <div class="author-name">Author: <a data-file="099-add" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+ 
+        <div class="glyph"><div class="glyph-icon gpi-view"></div>
+            <div class="class-name">.gpi-view</div>
+            <div class="author-name">Author: <a data-file="103-view" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-picture"></div>
+            <div class="class-name">.gpi-picture</div>
+            <div class="author-name">Author: <a data-file="104-picture" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-image"></div>
+            <div class="class-name">.gpi-image</div>
+            <div class="author-name">Author: <a data-file="105-image" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+  
+        <div class="glyph"><div class="glyph-icon gpi-price-tag"></div>
+            <div class="class-name">.gpi-price-tag</div>
+            <div class="author-name">Author: <a data-file="108-price-tag" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>       
+
+        <div class="glyph"><div class="glyph-icon gpi-cut-1"></div>
+            <div class="class-name">.gpi-cut-1</div>
+            <div class="author-name">Author: <a data-file="116-cut-1" href="https://www.flaticon.com/authors/dario-ferrando">Dario Ferrando</a> </div> 
+        </div>        
+ 
+        <div class="glyph"><div class="glyph-icon gpi-diskette"></div>
+            <div class="class-name">.gpi-diskette</div>
+            <div class="author-name">Author: <a data-file="118-diskette" href="https://www.flaticon.com/authors/graficheria">Graficheria</a> </div> 
+        </div>        
+
+        <div class="glyph"><div class="glyph-icon gpi-technology-5"></div>
+            <div class="class-name">.gpi-technology-5</div>
+            <div class="author-name">Author: <a data-file="148-technology-5" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-phone-call"></div>
+            <div class="class-name">.gpi-phone-call</div>
+            <div class="author-name">Author: <a data-file="122-phone-call" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-mail"></div>
+            <div class="class-name">.gpi-mail</div>
+            <div class="author-name">Author: <a data-file="119-mail" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-multimedia-2"></div>
+            <div class="class-name">.gpi-multimedia-2</div>
+            <div class="author-name">Author: <a data-file="120-multimedia-2" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-email"></div>
+            <div class="class-name">.gpi-email</div>
+            <div class="author-name">Author: <a data-file="146-email" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>
+
+        
+        <div class="glyph"><div class="glyph-icon gpi-fast-forward"></div>
+            <div class="class-name">.gpi-fast-forward</div>
+            <div class="author-name">Author: <a data-file="255-fast-forward" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-multimedia"></div>
+            <div class="class-name">.gpi-multimedia</div>
+            <div class="author-name">Author: <a data-file="129-multimedia" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-play-button"></div>
+            <div class="class-name">.gpi-play-button</div>
+            <div class="author-name">Author: <a data-file="101-play-button" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-stop"></div>
+            <div class="class-name">.gpi-stop</div>
+            <div class="author-name">Author: <a data-file="250-stop" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-music"></div>
+            <div class="class-name">.gpi-music</div>
+            <div class="author-name">Author: <a data-file="251-music" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-arrows"></div>
+            <div class="class-name">.gpi-arrows</div>
+            <div class="author-name">Author: <a data-file="215-arrows" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>  
+
+         <div class="glyph"><div class="glyph-icon gpi-speaker"></div>
+            <div class="class-name">.gpi-speaker</div>
+            <div class="author-name">Author: <a data-file="100-speaker" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>  
+
+        <div class="glyph"><div class="glyph-icon gpi-multimedia-1"></div>
+            <div class="class-name">.gpi-multimedia-1</div>
+            <div class="author-name">Author: <a data-file="249-multimedia-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-export"></div>
+            <div class="class-name">.gpi-export</div>
+            <div class="author-name">Author: <a data-file="132-export" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-man"></div>
+            <div class="class-name">.gpi-man</div>
+            <div class="author-name">Author: <a data-file="133-man" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>          
+        
+        <div class="glyph"><div class="glyph-icon gpi-people-1"></div>
+            <div class="class-name">.gpi-people-1</div>
+            <div class="author-name">Author: <a data-file="134-people-1" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-users-1"></div>
+            <div class="class-name">.gpi-users-1</div>
+            <div class="author-name">Author: <a data-file="059-users-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-users"></div>
+            <div class="class-name">.gpi-users</div>
+            <div class="author-name">Author: <a data-file="060-users" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-group"></div>
+            <div class="class-name">.gpi-group</div>
+            <div class="author-name">Author: <a data-file="023-group" href="https://www.flaticon.com/authors/prosymbols">Prosymbols</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-people-2"></div>
+            <div class="class-name">.gpi-people-2</div>
+            <div class="author-name">Author: <a data-file="029-people-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+        
+        <div class="glyph"><div class="glyph-icon gpi-people"></div>
+            <div class="class-name">.gpi-people</div>
+            <div class="author-name">Author: <a data-file="135-people" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-pie-chart"></div>
+            <div class="class-name">.gpi-pie-chart</div>
+            <div class="author-name">Author: <a data-file="136-pie-chart" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-signs-3"></div>
+            <div class="class-name">.gpi-signs-3</div>
+            <div class="author-name">Author: <a data-file="137-signs-3" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-signs-2"></div>
+            <div class="class-name">.gpi-signs-2</div>
+            <div class="author-name">Author: <a data-file="241-signs-2" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-signs-1"></div>
+            <div class="class-name">.gpi-signs-1</div>
+            <div class="author-name">Author: <a data-file="242-signs-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-map"></div>
+            <div class="class-name">.gpi-map</div>
+            <div class="author-name">Author: <a data-file="145-map" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>         
+        
+        <div class="glyph"><div class="glyph-icon gpi-check"></div>
+            <div class="class-name">.gpi-check</div>
+            <div class="author-name">Author: <a data-file="138-check" href="https://www.flaticon.com/authors/hadrien">Hadrien</a> </div> 
+        </div>        
+
+        <div class="glyph"><div class="glyph-icon gpi-cut"></div>
+            <div class="class-name">.gpi-cut</div>
+            <div class="author-name">Author: <a data-file="151-cut" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-arrows-4"></div>
+            <div class="class-name">.gpi-arrows-4</div>
+            <div class="author-name">Author: <a data-file="152-arrows-4" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+
+        <div class="glyph"><div class="glyph-icon gpi-medical"></div>
+            <div class="class-name">.gpi-medical</div>
+            <div class="author-name">Author: <a data-file="154-medical" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-like"></div>
+            <div class="class-name">.gpi-like</div>
+            <div class="author-name">Author: <a data-file="092-like" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-favorite-heart-button"></div>
+            <div class="class-name">.gpi-favorite-heart-button</div>
+            <div class="author-name">Author: <a data-file="164-favorite-heart-button" href="https://www.flaticon.com/authors/google">Google</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-favorite"></div>
+            <div class="class-name">.gpi-favorite</div>
+            <div class="author-name">Author: <a data-file="243-favorite" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>   
+        
+        <div class="glyph"><div class="glyph-icon gpi-favorite-2"></div>
+            <div class="class-name">.gpi-favorite-2</div>
+            <div class="author-name">Author: <a data-file="155-favorite-2" href="https://www.flaticon.com/authors/plainicon">Plainicon</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-favorite-1"></div>
+            <div class="class-name">.gpi-favorite-1</div>
+            <div class="author-name">Author: <a data-file="156-favorite-1" href="https://www.flaticon.com/authors/plainicon">Plainicon</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-question-list"></div>
+            <div class="class-name">.gpi-question-list</div>
+            <div class="author-name">Author: <a data-file="157-question-list" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>       
+ 
+        <div class="glyph"><div class="glyph-icon gpi-tick-box"></div>
+            <div class="class-name">.gpi-tick-box</div>
+            <div class="author-name">Author: <a data-file="161-tick-box" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-edit-button"></div>
+            <div class="class-name">.gpi-edit-button</div>
+            <div class="author-name">Author: <a data-file="162-edit-button" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-warning-sign"></div>
+            <div class="class-name">.gpi-warning-sign</div>
+            <div class="author-name">Author: <a data-file="163-warning-sign" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-one-finger-tap-gesture-of-outlined-hand-symbol"></div>
+            <div class="class-name">.gpi-one-finger-tap-gesture-of-outlined-hand-symbol</div>
+            <div class="author-name">Author: <a data-file="165-one-finger-tap-gesture-of-outlined-hand-symbol" href="https://www.flaticon.com/authors/yannick">Yannick</a> </div> 
+        </div>
+
+         <div class="glyph"><div class="glyph-icon gpi-menu"></div>
+            <div class="class-name">.gpi-menu</div>
+            <div class="author-name">Author: <a data-file="175-menu" href="https://www.flaticon.com/authors/darius-dan">Darius Dan</a> </div> 
+        </div>
+ 
+        <div class="glyph"><div class="glyph-icon gpi-menu-button"></div>
+            <div class="class-name">.gpi-menu-button</div>
+            <div class="author-name">Author: <a data-file="167-menu-button" href="https://www.flaticon.com/authors/graphicsbay">GraphicsBay</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-cross-out"></div>
+            <div class="class-name">.gpi-cross-out</div>
+            <div class="author-name">Author: <a data-file="168-cross-out" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-social"></div>
+            <div class="class-name">.gpi-social</div>
+            <div class="author-name">Author: <a data-file="169-social" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>  
+
+        <div class="glyph"><div class="glyph-icon gpi-target-1"></div>
+            <div class="class-name">.gpi-target-1</div>
+            <div class="author-name">Author: <a data-file="003-target-1" href="https://www.flaticon.com/authors/nikita-golubev">Nikita Golubev</a> </div> 
+        </div>        
+
+        <div class="glyph"><div class="glyph-icon gpi-target"></div>
+            <div class="class-name">.gpi-target</div>
+            <div class="author-name">Author: <a data-file="005-target" href="https://www.flaticon.com/authors/nikita-golubev">Nikita Golubev</a> </div> 
+        </div>       
+        
+        <div class="glyph"><div class="glyph-icon gpi-up-arrow"></div>
+            <div class="class-name">.gpi-up-arrow</div>
+            <div class="author-name">Author: <a data-file="170-up-arrow" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+
+        <div class="glyph"><div class="glyph-icon gpi-fire"></div>
+            <div class="class-name">.gpi-fire</div>
+            <div class="author-name">Author: <a data-file="172-fire" href="https://www.flaticon.com/authors/becris">Becris</a> </div> 
+        </div>     
+
+        <div class="glyph"><div class="glyph-icon gpi-auction"></div>
+            <div class="class-name">.gpi-auction</div>
+            <div class="author-name">Author: <a data-file="176-auction" href="https://www.flaticon.com/authors/dinosoftlabs">DinosoftLabs</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-reflection"></div>
+            <div class="class-name">.gpi-reflection</div>
+            <div class="author-name">Author: <a data-file="177-reflection" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-pen"></div>
+            <div class="class-name">.gpi-pen</div>
+            <div class="author-name">Author: <a data-file="178-pen" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-canvas"></div>
+            <div class="class-name">.gpi-canvas</div>
+            <div class="author-name">Author: <a data-file="179-canvas" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-grid"></div>
+            <div class="class-name">.gpi-grid</div>
+            <div class="author-name">Author: <a data-file="180-grid" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-eraser"></div>
+            <div class="class-name">.gpi-eraser</div>
+            <div class="author-name">Author: <a data-file="181-eraser" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div>        
+
+        <div class="glyph"><div class="glyph-icon gpi-agreement"></div>
+            <div class="class-name">.gpi-agreement</div>
+            <div class="author-name">Author: <a data-file="183-agreement" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-megaphone"></div>
+            <div class="class-name">.gpi-megaphone</div>
+            <div class="author-name">Author: <a data-file="184-megaphone" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-cloud-computing-1"></div>
+            <div class="class-name">.gpi-cloud-computing-1</div>
+            <div class="author-name">Author: <a data-file="185-cloud-computing-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-cloud-computing"></div>
+            <div class="class-name">.gpi-cloud-computing</div>
+            <div class="author-name">Author: <a data-file="186-cloud-computing" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-12"></div>
+            <div class="class-name">.gpi-file-12</div>
+            <div class="author-name">Author: <a data-file="187-file-12" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-video-file"></div>
+            <div class="class-name">.gpi-video-file</div>
+            <div class="author-name">Author: <a data-file="188-video-file" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-11"></div>
+            <div class="class-name">.gpi-file-11</div>
+            <div class="author-name">Author: <a data-file="189-file-11" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-10"></div>
+            <div class="class-name">.gpi-file-10</div>
+            <div class="author-name">Author: <a data-file="190-file-10" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-9"></div>
+            <div class="class-name">.gpi-file-9</div>
+            <div class="author-name">Author: <a data-file="191-file-9" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-8"></div>
+            <div class="class-name">.gpi-file-8</div>
+            <div class="author-name">Author: <a data-file="192-file-8" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-7"></div>
+            <div class="class-name">.gpi-file-7</div>
+            <div class="author-name">Author: <a data-file="193-file-7" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-6"></div>
+            <div class="class-name">.gpi-file-6</div>
+            <div class="author-name">Author: <a data-file="194-file-6" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-5"></div>
+            <div class="class-name">.gpi-file-5</div>
+            <div class="author-name">Author: <a data-file="195-file-5" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-4"></div>
+            <div class="class-name">.gpi-file-4</div>
+            <div class="author-name">Author: <a data-file="196-file-4" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-3"></div>
+            <div class="class-name">.gpi-file-3</div>
+            <div class="author-name">Author: <a data-file="197-file-3" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-2"></div>
+            <div class="class-name">.gpi-file-2</div>
+            <div class="author-name">Author: <a data-file="198-file-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file-1"></div>
+            <div class="class-name">.gpi-file-1</div>
+            <div class="author-name">Author: <a data-file="199-file-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-file"></div>
+            <div class="class-name">.gpi-file</div>
+            <div class="author-name">Author: <a data-file="200-file" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-audio-file"></div>
+            <div class="class-name">.gpi-audio-file</div>
+            <div class="author-name">Author: <a data-file="201-audio-file" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-video-player"></div>
+            <div class="class-name">.gpi-video-player</div>
+            <div class="author-name">Author: <a data-file="202-video-player" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-tag"></div>
+            <div class="class-name">.gpi-tag</div>
+            <div class="author-name">Author: <a data-file="203-tag" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+        
+        <div class="glyph"><div class="glyph-icon gpi-cloudy-day"></div>
+            <div class="class-name">.gpi-cloudy-day</div>
+            <div class="author-name">Author: <a data-file="205-cloudy-day" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-rain"></div>
+            <div class="class-name">.gpi-rain</div>
+            <div class="author-name">Author: <a data-file="206-rain" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-thermometer"></div>
+            <div class="class-name">.gpi-thermometer</div>
+            <div class="author-name">Author: <a data-file="207-thermometer" href="http://www.freepik.com">Freepik</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-shield"></div>
+            <div class="class-name">.gpi-shield</div>
+            <div class="author-name">Author: <a data-file="011-shield" href="https://www.flaticon.com/authors/pixel-perfect">Pixel perfect</a> </div> 
+        </div>         
+
+        <div class="glyph"><div class="glyph-icon gpi-loud-speaker"></div>
+            <div class="class-name">.gpi-loud-speaker</div>
+            <div class="author-name">Author: <a data-file="213-loud-speaker" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+
+        <div class="glyph"><div class="glyph-icon gpi-paint"></div>
+            <div class="class-name">.gpi-paint</div>
+            <div class="author-name">Author: <a data-file="217-paint" href="https://www.flaticon.com/authors/eucalyp">Eucalyp</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-interface-2"></div>
+            <div class="class-name">.gpi-interface-2</div>
+            <div class="author-name">Author: <a data-file="218-interface-2" href="https://www.flaticon.com/authors/eucalyp">Eucalyp</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-arroba"></div>
+            <div class="class-name">.gpi-arroba</div>
+            <div class="author-name">Author: <a data-file="219-arroba" href="https://www.flaticon.com/authors/anatoly">Anatoly</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-android"></div>
+            <div class="class-name">.gpi-android</div>
+            <div class="author-name">Author: <a data-file="220-android" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-apple"></div>
+            <div class="class-name">.gpi-apple</div>
+            <div class="author-name">Author: <a data-file="221-apple" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-google-play"></div>
+            <div class="class-name">.gpi-google-play</div>
+            <div class="author-name">Author: <a data-file="222-google-play" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-windows"></div>
+            <div class="class-name">.gpi-windows</div>
+            <div class="author-name">Author: <a data-file="223-windows" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-youtube"></div>
+            <div class="class-name">.gpi-youtube</div>
+            <div class="author-name">Author: <a data-file="224-youtube" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-business"></div>
+            <div class="class-name">.gpi-business</div>
+            <div class="author-name">Author: <a data-file="225-business" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-direction"></div>
+            <div class="class-name">.gpi-direction</div>
+            <div class="author-name">Author: <a data-file="226-direction" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-bluetooth"></div>
+            <div class="class-name">.gpi-bluetooth</div>
+            <div class="author-name">Author: <a data-file="227-bluetooth" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-chain"></div>
+            <div class="class-name">.gpi-chain</div>
+            <div class="author-name">Author: <a data-file="228-chain" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-link"></div>
+            <div class="class-name">.gpi-link</div>
+            <div class="author-name">Author: <a data-file="229-link" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-interface-1"></div>
+            <div class="class-name">.gpi-interface-1</div>
+            <div class="author-name">Author: <a data-file="230-interface-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-time-2"></div>
+            <div class="class-name">.gpi-time-2</div>
+            <div class="author-name">Author: <a data-file="231-time-2" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-time-1"></div>
+            <div class="class-name">.gpi-time-1</div>
+            <div class="author-name">Author: <a data-file="232-time-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-time"></div>
+            <div class="class-name">.gpi-time</div>
+            <div class="author-name">Author: <a data-file="233-time" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-technology-1"></div>
+            <div class="class-name">.gpi-technology-1</div>
+            <div class="author-name">Author: <a data-file="245-technology-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-witch"></div>
+            <div class="class-name">.gpi-witch</div>
+            <div class="author-name">Author: <a data-file="246-witch" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+ 
+        <div class="glyph"><div class="glyph-icon gpi-luxury"></div>
+            <div class="class-name">.gpi-luxury</div>
+            <div class="author-name">Author: <a data-file="235-luxury" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-smart"></div>
+            <div class="class-name">.gpi-smart</div>
+            <div class="author-name">Author: <a data-file="004-smart" href="https://www.flaticon.com/authors/nikita-golubev">Nikita Golubev</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-interface"></div>
+            <div class="class-name">.gpi-interface</div>
+            <div class="author-name">Author: <a data-file="236-interface" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-flag"></div>
+            <div class="class-name">.gpi-flag</div>
+            <div class="author-name">Author: <a data-file="237-flag" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-web-2"></div>
+            <div class="class-name">.gpi-web-2</div>
+            <div class="author-name">Author: <a data-file="238-web-2" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-web-1"></div>
+            <div class="class-name">.gpi-web-1</div>
+            <div class="author-name">Author: <a data-file="239-web-1" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-web"></div>
+            <div class="class-name">.gpi-web</div>
+            <div class="author-name">Author: <a data-file="244-web" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>          
+        
+        <div class="glyph"><div class="glyph-icon gpi-internet"></div>
+            <div class="class-name">.gpi-internet</div>
+            <div class="author-name">Author: <a data-file="240-internet" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-internet-1"></div>
+            <div class="class-name">.gpi-internet-1</div>
+            <div class="author-name">Author: <a data-file="047-internet-1" href="https://www.flaticon.com/authors/gregor-cresnar">Gregor Cresnar</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-internet-2"></div>
+            <div class="class-name">.gpi-internet-2</div>
+            <div class="author-name">Author: <a data-file="020-internet-2" href="https://www.flaticon.com/authors/dinosoftlabs">DinosoftLabs</a> </div> 
+        </div>
+
+        <div class="glyph"><div class="glyph-icon gpi-global"></div>
+            <div class="class-name">.gpi-global</div>
+            <div class="author-name">Author: <a data-file="234-global" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div> 
+
+        <div class="glyph"><div class="glyph-icon gpi-power"></div>
+            <div class="class-name">.gpi-power</div>
+            <div class="author-name">Author: <a data-file="247-power" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gpi-signs"></div>
+            <div class="class-name">.gpi-signs</div>
+            <div class="author-name">Author: <a data-file="248-signs" href="https://www.flaticon.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+
+         <div class="glyph"><div class="glyph-icon gpi-shape"></div>
+            <div class="class-name">.gpi-shape</div>
+            <div class="author-name">Author: <a data-file="001-shape" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>
+ 
+        <div class="glyph"><div class="glyph-icon gpi-transport"></div>
+            <div class="class-name">.gpi-transport</div>
+            <div class="author-name">Author: <a data-file="254-transport" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+
+        <div class="glyph"><div class="glyph-icon gpi-maths"></div>
+            <div class="class-name">.gpi-maths</div>
+            <div class="author-name">Author: <a data-file="256-maths" href="https://www.flaticon.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+
+    </section>
+
+</body>
+</html>
